@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:100,200,300,400,500,600,700|Poiret+One:100,200,300,400,500,600,700');
+
+/*-----------------------------------------------General*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 150px;
+    background-color: #333;
+}
+
+#title {
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 500;
+    color: #27cdf1;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.section-wrapper {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+}
+
+.button {
+    text-align: center;
+    width: 100%;
+    margin: 16px;
+}
+
+/*-----------------------------------------------Home*/
+
+.home-page {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #333;
+}
+
+.welcome {
+    width: 100%;
+    margin: 16px 16px 0 16px;
+}
+
+.height {
+    width: 100%;
+    margin: 16px;
+}
+
+select[name=height] {
+    display: block;
+    margin: 12px auto 12px auto;
+    margin-top: 12px;
+}
+
+option {
+    font-weight: 500;
+}
+
+.build {
+    width: 100%;
+    margin: 16px;
+}
+
+.build-choices {
+    text-align: center;
+    margin: 12px 0;
+}
+
+.build-choices span {
+    color: #e9f1f4;
+}
+
+#welcome {
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #e9f1f4;
+}
+
+#height {
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 500;
+    color: #e9f1f4;
+}
+
+#build {
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-size: 24px;
+    margin: 0 0 12px 0;
+    font-weight: 500;
+    color: #e9f1f4;
+}
+
+/*-----------------------------------------------Plumbing*/
