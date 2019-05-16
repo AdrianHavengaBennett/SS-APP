@@ -8,8 +8,29 @@ body {
 }
 
 header {
-    height: 150px;
     background-color: #333;
+}
+
+.main-title {
+    width: 100%;
+}
+
+.navbar {
+    padding: 0;
+    background-color: #333;
+}
+
+.navbar-item {
+    width: 25%;
+    text-align: center;
+}
+
+.navbar-item i {
+    width: 50px;
+    color: #e9f1f4;
+    font-size: 28px;
+    padding-top: 8px;
+    padding-bottom: 12px;
 }
 
 #title {
@@ -88,6 +109,7 @@ option {
 
 .build-choices span {
     color: #e9f1f4;
+    padding: 8px 8px 8px 4px;
 }
 
 #welcome {
@@ -118,3 +140,41 @@ option {
 }
 
 /*-----------------------------------------------Plumbing*/
+
+.plumbing-page {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #595959;
+}
+
+/*-----------------------------------------------Gas*/
+
+.gas-page {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #595959;
+}
+
+/*-----------------------------------------------Electrical*/
+
+.electrical-page {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #595959;
+}
+
+/*-----------------------------------------------Ladders*/
+
+.ladders-page {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #595959;
+}
