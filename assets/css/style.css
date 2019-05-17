@@ -13,14 +13,18 @@ header {
 
 .main-title {
     width: 100%;
+    margin: 16px 0;
 }
 
 .navbar {
+    border-top: 1px solid #27cdf1;
+    border-bottom: 1px solid #27cdf1;
     padding: 0;
     background-color: #333;
 }
 
 .navbar-item {
+    padding: 16px 0;
     width: 25%;
     text-align: center;
 }
@@ -61,10 +65,52 @@ h6 {
     top: 5%;
 }
 
+#section-heading {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 500;
+    color: #27cdf1;
+    padding: 16px;
+}
+
+.section-choices {
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+
+.section-choices form {
+    font-size: 24px;
+}
+
+.section-choices span {
+    color: #e9f1f4;
+    padding-left: 8px;
+}
+
+.section-choices input {
+    display: inline-block;
+}
+
+footer {
+    background-color: #333;
+}
+
 .button {
     text-align: center;
     width: 100%;
     margin: 16px;
+}
+
+.btn {
+    margin: 0 8px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: transparent;
+    border-color: #27cdf1;
 }
 
 /*-----------------------------------------------Home*/
@@ -102,12 +148,12 @@ option {
     margin: 16px;
 }
 
-.build-choices {
+.home-choices {
     text-align: center;
     margin: 12px 0;
 }
 
-.build-choices span {
+.home-choices span {
     color: #e9f1f4;
     padding: 8px 8px 8px 4px;
 }
