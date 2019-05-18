@@ -37,6 +37,10 @@ header {
     padding-bottom: 12px;
 }
 
+#current-menu-option {
+    color: 	#ff4f00;
+}
+
 #title {
     text-align: center;
     font-family: "Poiret One", sans-serif;
@@ -81,7 +85,9 @@ h6 {
 }
 
 .section-choices form {
-    font-size: 24px;
+    font-size: 24px;    
+    text-align: center;
+    padding-bottom: 8px;
 }
 
 .section-choices span {
@@ -223,4 +229,40 @@ option {
     width: 100%;
     min-height: 100vh;
     background-color: #595959;
+}
+
+/*-----------------------------------------------Media Queries*/
+
+@media (min-width: 768px) {
+    #welcome {
+        font-size: 36px;
+    }
+    #title {
+        font-size: 60px;
+    }
+    #height {
+        font-size: 36px;
+    }
+    select[name=height] {
+        font-size: 36px;
+    }
+    #build {
+        font-size: 36px;
+    }
+    .home-choices {
+        font-size: 30px;
+    }
+    .btn {
+        font-size: 30px;
+    }
+    .section-wrapper {
+        top: 18%;
+    }
+    #section-heading {
+        font-size: 48px;
+    }
+    .section-choices form {
+        font-size: 30px;
+        padding-bottom: 16px;
+    }
 }
