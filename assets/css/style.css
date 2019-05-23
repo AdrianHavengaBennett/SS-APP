@@ -46,7 +46,7 @@ header {
 }
 
 #current-menu-option {
-    color: 	#ff4f00;
+    color: #ff4f00;
 }
 
 #title {
@@ -96,7 +96,7 @@ h6 {
 }
 
 .section-choices form {
-    font-size: 24px;    
+    font-size: 24px;
     text-align: center;
     padding-bottom: 8px;
 }
@@ -152,6 +152,10 @@ footer {
 }
 
 input[type=text] {
+    margin: 12px 0;
+}
+
+input[type=submit] {
     margin-top: 12px;
 }
 
@@ -227,7 +231,7 @@ option {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #595959;
+    /*background-color: #595959;*/
 }
 
 /*-----------------------------------------------Gas*/
@@ -236,7 +240,7 @@ option {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #595959;
+    /*background-color: #595959;*/
 }
 
 /*-----------------------------------------------Electrical*/
@@ -245,7 +249,7 @@ option {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #595959;
+    /*background-color: #595959;*/
 }
 
 /*-----------------------------------------------Ladders*/
@@ -254,7 +258,7 @@ option {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #595959;
+    /*background-color: #595959;*/
 }
 
 /*-----------------------------------------------Media Queries*/
@@ -265,6 +269,12 @@ option {
     }
     #title {
         font-size: 60px;
+    }
+    #name {
+        font-size: 36px;
+    }
+    input[type=text] {
+        font-size: 36px;
     }
     #height {
         font-size: 36px;
@@ -282,13 +292,31 @@ option {
         font-size: 30px;
     }
     .section-wrapper {
-        top: 18%;
+        top: 15%;
     }
     #section-heading {
+        margin: 32px 0;
         font-size: 48px;
     }
     .section-choices form {
+        margin-bottom: 32px;
         font-size: 30px;
         padding-bottom: 16px;
+    }
+    section[class=plumbing-page] footer {
+        margin-top: 144px;
+        /*THIS MIGHT NEED ADJUSTING AGAIN WHEN THE CONTENT CHANGES/UPDATES*/
+    }
+    section[class=gas-page] footer {
+        margin-top: 197px;
+        /*THIS MIGHT NEED ADJUSTING AGAIN WHEN THE CONTENT CHANGES/UPDATES*/
+    }
+    section[class=electrical-page] footer {
+        margin-top: 197px;
+        /*THIS MIGHT NEED ADJUSTING AGAIN WHEN THE CONTENT CHANGES/UPDATES*/
+    }
+    section[class=ladders-page] footer {
+        margin-top: 250px;
+        /*THIS MIGHT NEED ADJUSTING AGAIN WHEN THE CONTENT CHANGES/UPDATES*/
     }
 }
