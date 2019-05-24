@@ -155,7 +155,7 @@ input[type=text] {
     margin: 12px 0;
 }
 
-input[type=submit] {
+#home-submit {
     margin-top: 12px;
 }
 
@@ -303,20 +303,5 @@ option {
         font-size: 30px;
         padding-bottom: 16px;
     }
-    section[class=plumbing-page] footer {
-        margin-top: 144px;
-        /*THIS MIGHT NEED ADJUSTING AGAIN WHEN THE CONTENT CHANGES/UPDATES*/
-    }
-    section[class=gas-page] footer {
-        margin-top: 197px;
-        /*THIS MIGHT NEED ADJUSTING AGAIN WHEN THE CONTENT CHANGES/UPDATES*/
-    }
-    section[class=electrical-page] footer {
-        margin-top: 197px;
-        /*THIS MIGHT NEED ADJUSTING AGAIN WHEN THE CONTENT CHANGES/UPDATES*/
-    }
-    section[class=ladders-page] footer {
-        margin-top: 250px;
-        /*THIS MIGHT NEED ADJUSTING AGAIN WHEN THE CONTENT CHANGES/UPDATES*/
-    }
+    
 }
