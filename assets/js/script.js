@@ -1,5 +1,3 @@
 function changeColor() {
     
 }
-
-//test
