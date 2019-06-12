@@ -104,6 +104,10 @@ h6 {
     padding-bottom: 8px;
 }
 
+.js-test {
+    color: red;
+}
+
 .section-choices span {
     color: #e9f1f4;
     padding-left: 8px;
@@ -141,6 +145,10 @@ footer {
     padding: 0;
     width: 100%;
     background-color: #333;
+}
+
+.text-center {
+    padding-bottom: 64px;
 }
 
 .welcome {
